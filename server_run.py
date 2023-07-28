@@ -32,7 +32,7 @@ def send_custom_message(client_socket):
 
 def start_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('13.51.170.20', 9999))
+    server_socket.bind(('172.31.19.233', 9999))
     server_socket.listen(5)
     print("Server listening on port 9999...")
 
